@@ -124,7 +124,7 @@ int stol(char* s, long* result) {
         return -1;
     }
     *result = val;
-    return 0;
+    return (0);
 }
 
 void show_mate_formula(int argc, char* argv[]) {
